@@ -3,6 +3,11 @@
 This project follows the official Django tutorial
 
 ## Tutorial 1
+Install django
+```pip3 install django```
+
+Check django is installed
+```python3 -m django --version```
 
 ## Tutorial 2
 
