@@ -3,11 +3,11 @@
 This project follows the official Django tutorial
 
 ## Tutorial 1
-Install django
-```pip3 install django```
-
-Check django is installed
-```python3 -m django --version```
+Install django and check its installed
+```
+pip3 install django
+python3 -m django --version
+```
 
 Create a project. A project can be made up of multiple apps
 ```django-admin startproject mysite```
