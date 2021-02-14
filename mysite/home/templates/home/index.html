@@ -1,0 +1,17 @@
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<form action="{% url 'home:login' %}" method="post">
+  {% csrf_token %}
+  <div>
+    <label for="username">Username: </label>
+    <input type="text" name="username">
+  </div>
+  <div>
+    <label for="email">Password: </label>
+    <input type="text" name="password">
+  </div>
+  <div>
+    <input type="submit" value="Login">
+  </div>
+</form>
+
